@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Tambah Item Baru"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/banjarnegara_tourism_object"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/route"/>
+
+        <ImageView
+            android:id="@+id/yogyakarta_tourism_object"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/tourism" />
+
+        <ImageView
+            android:id="@+id/car_price_category"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/car" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/culinary_info"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/picnic"
+            />
+
+        <ImageView
+            android:id="@+id/hospital_list"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/hospital" />
+
+        <ImageView
+            android:id="@+id/adult_clothes"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/cloth"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/promo"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/promo"
+            />
+
+        <ImageView
+            android:id="@+id/souvenirs"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/souvenir"
+            />
+
+        <ImageView
+            android:id="@+id/child_clothes"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/clothes"
+            android:layout_marginStart="16dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Lihat Semua"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Cek Orderan"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+</RelativeLayout>

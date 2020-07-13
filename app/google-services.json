@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "559554785357",
+    "firebase_url": "https://arundayatour-ea1b1.firebaseio.com",
+    "project_id": "arundayatour-ea1b1",
+    "storage_bucket": "arundayatour-ea1b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559554785357:android:6d8e18664d72dc404d6c04",
+        "android_client_info": {
+          "package_name": "com.example.arundayatour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559554785357-00e6gir6sha7vkjtlc846vvcohsng304.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arundayatour",
+            "certificate_hash": "93d8df6273eb6051f959d0561b697301774ea2d0"
+          }
+        },
+        {
+          "client_id": "559554785357-kqfdohcs9smurflk3c3sp4tq89tc1bbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Ote4p9ILNIUTlZOAGGoYofSmIuWNMQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559554785357-kqfdohcs9smurflk3c3sp4tq89tc1bbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
